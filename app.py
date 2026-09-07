@@ -198,7 +198,7 @@ grade_map = {
 
 grade = grade_map[grade]
 
-default = 1 if default=="Yes" else 0
+previous_default = 1 if previous_default=="Yes" else 0
 
 
 # -----------------------------
@@ -215,7 +215,7 @@ if predict:
         loan_amount,
         interest,
         loan_percent_income,
-        default,
+        previous_default,
         history,
 
         home_other,
